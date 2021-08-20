@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #2F5D62;
+    height: 100vh;
+    font-family: 'Didact Gothic', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    font-size: 1.2rem;
+    padding: .1em .5em;
+    
+    border:1px solid #A7C4BC;
+    color: #DFEEEA;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color:#DFEEEA;
+    border:none;
+    color:#2F5D62;
+}
+nav a:active{
+    color:red;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    width: 70vh;
+}
+#incomeExpense{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+#transaction{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}

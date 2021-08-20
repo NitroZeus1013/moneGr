@@ -1,0 +1,48 @@
+
+#newTask{
+    color: #A7C4BC;
+    padding: 1em;
+}
+
+
+form{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+input[type=number]{
+    -mox-appearance:textfield;
+    appearance: textfield;
+    
+
+}
+button,form input{
+    background-color: #A7C4BC;
+    color:#2F5D62;
+    padding: .5em;
+    margin: .3em;
+    width: 100%;
+    outline: none;
+    border: 1px solid;
+
+}
+button{
+    cursor: pointer;
+}
+
+form > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h4{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#submit{
+    margin-top: 3em;
+    justify-content: center;
+}
+
